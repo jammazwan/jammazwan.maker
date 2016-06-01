@@ -1,0 +1,27 @@
+package jammazwan.${headers.pckg};
+
+import org.apache.camel.Exchange;
+import org.apache.camel.Processor;
+import org.apache.camel.builder.RouteBuilder;
+import org.springframework.beans.factory.annotation.Autowired;
+
+
+public class ${headers.FileNamePrefix}Routes extends RouteBuilder {
+
+    @Autowired
+    private ${headers.FileNamePrefix}Bean ${headers.pckg}Bean;
+    @Autowired
+    private ${headers.FileNamePrefix}Processor ${headers.pckg}Processor;
+
+    @Override
+    public void configure() throws Exception {
+        from("direct:${headers.pckg}")
+            .process(new Processor() {
+                public void process(Exchange exchange) throws Exception {
+                    String text = exchange.getIn().getBody(String.class);
+                    String newAnswer = ${headers.pckg}Bean.answer(text);
+                    exchange.getOut().setBody(newAnswer);
+                }
+            });
+    }
+}

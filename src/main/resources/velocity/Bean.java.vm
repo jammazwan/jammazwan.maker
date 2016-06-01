@@ -1,0 +1,9 @@
+package jammazwan.${headers.pckg};
+
+public class ${headers.FileNamePrefix}Bean {
+
+    public String answer(String text) {
+        return "My " + text;
+    }
+
+}

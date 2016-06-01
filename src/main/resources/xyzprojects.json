@@ -1,0 +1,22 @@
+[
+{
+  "xyzCode" : "xaa",
+  "name" : "SingleObjectToJsonFile",
+  "desc" : "Create an object and save it as json in a file",
+  "version" : "0.1.0-SNAPSHOT",
+  "technology" : "jackson, file",
+  "specialInstructions" : "be careful not to ever do the wrong thing, it could be incorrect. Do the right thing instead",
+  "pckg" : "jammazwan",
+  "include" : "processor"
+},
+{
+  "xyzCode" : "xab",
+  "name" : "SeedDbFromManyCsvFiles",
+  "desc" : "Uses JPA and biny to seed a database from many different csv files",
+  "version" : "0.1.0-SNAPSHOT",
+  "technology" : "bindy jpa file",
+  "specialInstructions" : "No Special Instructions yet",
+  "pckg" : "jammazwan",
+  "include" : "processor"
+}
+]

@@ -1,0 +1,20 @@
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/jammazwan/${headers.xyzCode}_${headers.projectname}.git
+git push -u origin master
+
+# xyzCode : ${headers.xyzCode}
+# name: ${headers.name}
+# projectname ${headers.projectname}
+# projectName ${headers.projectName}
+# desc: ${headers.desc}
+# version ${headers.version}
+# technology ${headers.technology}
+# specialInstructions  ${headers.specialInstructions}
+# pckg   ${headers.pckg}
+# include   ${headers.include}
+# rootDir : ${headers.rootDir}
+# readme: ${headers.readme}
+# FileNamePrefix : ${headers.FileNamePrefix}
+ 
