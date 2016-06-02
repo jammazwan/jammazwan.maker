@@ -1,1 +1,0 @@
-scp jammazwan100.tar.gz frogtoes@docs.datafundamentals.com:/home/frogtoes/docs.datafundamentals.com/jammazwan/ 
