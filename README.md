@@ -8,6 +8,33 @@
 
 # jammazwan.maker
 
+jammazwan is a project generator for Camel. It built the jammazwan.100, and is used to build other example projects for me to study with.
+
+It is a personal tool, and not currently targeted at public use. But anyone is welcome to use it.
+
+### Underlying Technology
+
+All jammazwan projects are built from camel-velocity templates. Pretty easy stuff, as these things go.
+
+### If I wanted to use jamazwan.maker anyway...
+
+Anyway? You mean even though it is not documented? 
+
+Start by searching for a couple public static void main( ...
+
+There are two basic routines. 
+
+ * One runs the jammazwan.100 like random project constructs
+ * One builds projects from the xyzprojects.json file.
+ 
+### Happy Camel Trails!
+
+---
+
+### What are these notes below?
+
+Not really sure. Made them a long time ago. Maybe I should study them, sometime.
+
 SCOPE!!!
 
  * see scope list. Covers every item on this scope list, randomly generated!!
