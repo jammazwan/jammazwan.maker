@@ -4,13 +4,13 @@
 
 ---
 
-### SeedDbFromManyCsvFiles
+### index
 
-Description: **_Uses JPA and biny to seed a database from many different csv files_**
+Description: **_Creates an index of x_ projects_**
 
-Welcome to SeedDbFromManyCsvFiles
+Welcome to index
 
-The prefix xab is used for maintaining sort order in a directory, providing packaging, and is otherwise meaningless
+The prefix x is used for maintaining sort order in a directory, providing packaging, and is otherwise meaningless
 
 This project is a code demo project - designed to isolate functionality and make it easy replicate-able. link here to blog on same.
 
@@ -21,7 +21,7 @@ __Relax!__ This project runs __almost__ all by itself! No huge web of parent pom
 
 But it does have *one* common dependency which it shares with other jammazwan code examples. 
 This design tries to move some of the clutter out of the project, 
-so you can focus only on what is required to demo the **SeedDbFromManyCsvFiles** feature.
+so you can focus only on what is required to demo the **index** feature.
 
 So you always have to git clone jammazwan.shared into the same folder first, 
 then run mvn install on that first, before messing with this project.
