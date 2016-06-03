@@ -1,3 +1,4 @@
 generated/
 /upload.sh
 *.sh
+src/main/resources/xlinks.txt
