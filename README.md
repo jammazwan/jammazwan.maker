@@ -8,7 +8,7 @@
 
 # jammazwan.maker
 
-jammazwan is a project generator for Camel. It built the jammazwan.100, and is used to build other example projects for me to study with.
+jammazwan is a project generator for Camel. It built the [jammazwan.100](https://github.com/jammazwan/jammazwan.100), and is used to build [other example projects](https://github.com/jammazwan/jammazwan.x_index) for me to study with.
 
 It is a personal tool, and not currently targeted at public use. But anyone is welcome to use it.
 
