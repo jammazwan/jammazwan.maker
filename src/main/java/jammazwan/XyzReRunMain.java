@@ -5,12 +5,14 @@ import java.util.Map;
 import org.apache.camel.impl.DefaultCamelContext;
 
 import jammazwan.replace.ReplacePomDependencies;
+import jammazwan.replace.ReplaceXProjectGitStatus;
 import jammazwan.replace.ReplaceXProjectLinks;
 import jammazwan.util.Utils;
 
 public class XyzReRunMain {
 	UnMarshalExampleProjects unMarshalExampleProjects = new UnMarshalExampleProjects();
 	StringBuffer linksContent = new StringBuffer();
+	StringBuffer xgitstatusContent = new StringBuffer();
 
 	public static void main(String[] args) throws Exception {
 		XyzReRunMain xyzReRun = new XyzReRunMain();
@@ -27,6 +29,7 @@ public class XyzReRunMain {
 		new ReplacePomDependencies().get(replacements);
 		GenerateProject.go(replacements);
 		linksContent.append(new ReplaceXProjectLinks().get(replacements));
+		xgitstatusContent.append(new ReplaceXProjectGitStatus().get(replacements));
 	}
 
 	private void go() throws Exception {
@@ -39,7 +42,7 @@ public class XyzReRunMain {
 		for (Map xmplProject : unMarshalExampleProjects.getExampleProjects()) {
 			buildProject(xmplProject);
 		}
-		GenerateXLinks.go(linksContent.toString());
+		GenerateXLinks.go(linksContent.toString(), xgitstatusContent.toString());
 	}
 
 }
