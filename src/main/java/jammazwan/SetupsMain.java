@@ -10,6 +10,7 @@ import org.apache.camel.CamelContext;
 import org.apache.camel.impl.DefaultCamelContext;
 
 import jammazwan.replace.ReplacePomDependencies;
+import jammazwan.replace.ReplaceProcessorBeanRefs;
 import jammazwan.util.ReadMeGenerate;
 import jammazwan.util.ThreeCharOrdinal;
 import jammazwan.util.Utils;
@@ -39,6 +40,7 @@ public class SetupsMain {
 			replacements.put("readme",readMeGenerate.getString() );
 			replacements.put("FileNamePrefix", Utils.upLow(xyzCode));
 			new ReplacePomDependencies().get(replacements);
+			new ReplaceProcessorBeanRefs().get(replacements);
 			GenerateProject.go(replacements);
 			sb.append("" + i++ +" begin: " + readMeGenerate.getName()+ "\n");
 			sb.append(readMeGenerate.getString()+ "\n\n");

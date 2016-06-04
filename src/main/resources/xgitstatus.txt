@@ -1,12 +1,10 @@
 
 cd ~/work/jammazwan/xaa_SingleObjectToJsonFile
-echo " "
 echo "--------------------"
 pwd
 git status
 
 cd ~/work/jammazwan/xab_SeedDbFromManyCsvFiles
-echo " "
 echo "--------------------"
 pwd
 git status

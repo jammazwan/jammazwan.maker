@@ -8,10 +8,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 public class ${headers.FileNamePrefix}Routes extends RouteBuilder {
 
-    @Autowired
-    private ${headers.FileNamePrefix}Bean ${headers.pckg}Bean;
-    @Autowired
-    private ${headers.FileNamePrefix}Processor ${headers.pckg}Processor;
+    ${headers.beanJavaRef}
+    ${headers.processorJavaRef}
 
     @Override
     public void configure() throws Exception {
@@ -19,7 +17,7 @@ public class ${headers.FileNamePrefix}Routes extends RouteBuilder {
             .process(new Processor() {
                 public void process(Exchange exchange) throws Exception {
                     String text = exchange.getIn().getBody(String.class);
-                    String newAnswer = ${headers.pckg}Bean.answer(text);
+                    ${headers.answerCode}
                     exchange.getOut().setBody(newAnswer);
                 }
             });
