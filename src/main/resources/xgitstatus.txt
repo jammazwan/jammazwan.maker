@@ -8,3 +8,8 @@ cd ~/work/jammazwan/xab_SeedDbFromManyCsvFiles
 echo "--------------------"
 pwd
 git status
+
+cd ~/work/jammazwan/xac_SomethingBlayInsightly
+echo "--------------------"
+pwd
+git status

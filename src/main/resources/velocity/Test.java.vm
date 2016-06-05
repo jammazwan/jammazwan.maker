@@ -13,7 +13,7 @@ public class ${headers.FileNamePrefix}Test extends CamelSpringTestSupport {
     }
 
     @Test
-    public void testHelloBean() throws Exception {
+    public void test${headers.FileNamePrefix}() throws Exception {
         String reply = template.requestBody("direct:${headers.pckg}", "No Meaning Here", String.class);
 		assertEquals("My No Meaning Here", reply);
     }
