@@ -1,6 +1,6 @@
 git init
-git add README.md
-git commit -m "first commit"
+git add --all
+git commit -m "initial commit"
 git remote add origin https://github.com/jammazwan/${headers.xyzCode}_${headers.projectname}.git
 git push -u origin master
 
