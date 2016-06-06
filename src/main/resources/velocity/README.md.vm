@@ -26,6 +26,12 @@ Now you may import this (or both) into your IDE, either via it's pom, or as a na
 
 This project is a code demo designed to respect your time as a developer, and remove any confusion when you replicate it. See [**_this blog_**](https://betterologist.net/2016/05/jammazwan-projects-for-learning-apache-camel/) for more insights on why this was created.
 
+#[[###]]# Special Instructions:
+
+If there are any special instructions for this project from the [metadata](https://github.com/jammazwan/jammazwan.maker/blob/master/src/main/resources/xyzprojects.json):
+
+_${headers.specialInstructions}_
+
 #[[###]]# Other notes:
 
 This page is generated from [metadata](https://github.com/jammazwan/jammazwan.maker/blob/master/src/main/resources/xyzprojects.json). **Handwritten notes specific to this project, _if any_**, may be found [at NOTES.md](NOTES.md)
@@ -49,12 +55,6 @@ then run mvn install, before installing this project.
 If you want to replicate the functionality of this project into your own stand-alone project, you will need to pull some dependencies and code from each.
 
 For the record, I should have done the sibling project as a parent, but I have been repulsed by so many deep and nasty nested pom hierarchies that I refused to add even one more parent pom to the public domain. Silly, I know.
-
-#[[###]]# Special Instructions:
-
-If there are any special instructions for this project from the [metadata](https://github.com/jammazwan/jammazwan.maker/blob/master/src/main/resources/xyzprojects.json):
-
-_${headers.specialInstructions}_
 
 #[[###]]# other notes
 

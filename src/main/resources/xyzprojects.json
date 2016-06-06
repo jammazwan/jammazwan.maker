@@ -4,9 +4,8 @@
 		"name": "SingleObjectToJsonFile",
 		"desc": "Create an object, and save it as json in a file",
 		"version": "0.1.0-SNAPSHOT",
-		"technology": "jackson, file",
+		"technology": "camel-jackson camel-file",
 		"specialInstructions": "run XaaTest and look for a city.json to be produced fresh in the root of this project",
-		"pckg": "jammazwan",
 		"include": "processor"
 	},
 	{
@@ -14,9 +13,17 @@
 		"name": "SeedDbFromManyCsvFiles",
 		"desc": "Show off project only: Uses JPA and camel-bindy to seed a database from many different csv files",
 		"version": "0.1.0-SNAPSHOT",
-		"technology": "bindy jpa file",
+		"technology": "camel-bindy camel-jpa camel-file",
 		"specialInstructions": "This is a needlessly complex show-off project. Pursue simpler x_projects to learn the basics of jpa, bindy, etc",
-		"pckg": "jammazwan",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xac",
+		"name": "PartialCopyCsvSplitAggregate",
+		"desc": "Create single field .csv file from multiple field .csv file, using simple splitter and aggregation",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-bindy  camel-file",
+		"specialInstructions": "run XacTest and re-create surname.txt from surname.csv, which remains intact in jammazwan.shared.",
 		"include": "none"
 	}
 ]

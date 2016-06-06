@@ -23,7 +23,7 @@ public class XmplProjectTest extends CamelTestSupport {
 		String specialInstructions = "be careful not to ever do the wrong thing, it could be incorrect. Do the right thing instead";
 		String pckg = "jammazwan";
 		String include = "processor";
-		XmplProject xmplProject = new XmplProject(xyzCode, name, desc, version, technology, specialInstructions, pckg,
+		XmplProject xmplProject = new XmplProject(xyzCode, name, desc, version, technology, specialInstructions,
 				include);
 		template.requestBody("direct:start", xmplProject);
 	}

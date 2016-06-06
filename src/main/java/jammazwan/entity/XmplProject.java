@@ -7,15 +7,14 @@ public class XmplProject {
 	private String version;
 	private String technology;
 	private String specialInstructions;
-	private String pckg;
-	private String include; //such as processor, bean
+	private String include; // such as processor, bean
 
 	public XmplProject() {
 		super();
 	}
 
-	public XmplProject(String xyzCode, String name, String desc, String version, String technology, String specialInstructions,
-			String pckg, String include) {
+	public XmplProject(String xyzCode, String name, String desc, String version, String technology,
+			String specialInstructions, String include) {
 		super();
 		this.setXyzCode(xyzCode);
 		this.name = name;
@@ -23,7 +22,6 @@ public class XmplProject {
 		this.version = version;
 		this.technology = technology;
 		this.specialInstructions = specialInstructions;
-		this.pckg = pckg;
 		this.include = include;
 	}
 
@@ -73,14 +71,6 @@ public class XmplProject {
 
 	public void setSpecialInstructions(String specialInstructions) {
 		this.specialInstructions = specialInstructions;
-	}
-
-	public String getPckg() {
-		return pckg;
-	}
-
-	public void setPckg(String pckg) {
-		this.pckg = pckg;
 	}
 
 	public String getXyzCode() {

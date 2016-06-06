@@ -31,9 +31,9 @@ public class InputRouteBuilder extends RouteBuilder {
 		/*
 		 * First velocity templates, where substitutions are made
 		 */
-		from("file:src/main/resources/velocity?noop=true&delete=false&fileName=README.txt.vm")
-				.process(velocityProcessor).to("velocity://velocity/README.txt.vm").process(getProcessor(rootDir))
-				.to(getFolder());
+//		from("file:src/main/resources/velocity?noop=true&delete=false&fileName=README.txt.vm")
+//				.process(velocityProcessor).to("velocity://velocity/README.txt.vm").process(getProcessor(rootDir))
+//				.to(getFolder());
 
 		from("file:src/main/resources/velocity?noop=true&delete=false&fileName=pom.xml.vm").process(velocityProcessor)
 				.to("velocity://velocity/pom.xml.vm").process(getProcessor(rootDir)).to(getFolder());

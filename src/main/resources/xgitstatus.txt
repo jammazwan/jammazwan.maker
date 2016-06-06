@@ -9,7 +9,7 @@ echo "--------------------"
 pwd
 git status
 
-cd ~/work/jammazwan/xac_SomethingBlayInsightly
+cd ~/work/jammazwan/xac_PartialCopyCsvSplitAggregate
 echo "--------------------"
 pwd
 git status
