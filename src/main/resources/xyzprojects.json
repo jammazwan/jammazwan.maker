@@ -22,8 +22,26 @@
 		"name": "PartialCopyCsvSplitAggregate",
 		"desc": "Create single field .csv file from multiple field .csv file, using simple splitter and aggregation",
 		"version": "0.1.0-SNAPSHOT",
-		"technology": "camel-bindy  camel-file",
+		"technology": "camel-csv camel-file",
 		"specialInstructions": "run XacTest and re-create surname.txt from surname.csv, which remains intact in jammazwan.shared.",
 		"include": "none"
+	},
+	{
+		"xyzCode": "xad",
+		"name": "FileToConsoleLog",
+		"desc": "Displays contents of a file in the console. Simplest possible file project",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "run XadTest and observe console.",
+		"include": ""
+	},
+	{
+		"xyzCode": "xae",
+		"name": "CsvFileToObjects",
+		"desc": "Opens .csv file, creates java objects from contents",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file, camel-bindy",
+		"specialInstructions": "run XaeTest which confirms that first record has expected field contents.",
+		"include": ""
 	}
 ]

@@ -3,6 +3,8 @@ package jammazwan;
 import org.apache.camel.CamelContext;
 import org.apache.camel.impl.DefaultCamelContext;
 
+import jammazwan.util.HoldContextOpenUntilDone;
+
 public class GenerateXLinks {
 
 	static void go(String linksContent, String xgitstatusContent) throws Exception {
@@ -13,7 +15,7 @@ public class GenerateXLinks {
 				"xlinks.txt");
 		context.createProducerTemplate().requestBodyAndHeader("direct:writeGitStatus", xgitstatusContent, "CamelFileName",
 				"xgitstatus.txt");
-		Thread.sleep(1000);
+		HoldContextOpenUntilDone.go(context);
 		context.stop();
 	}
 }

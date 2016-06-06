@@ -8,6 +8,7 @@ import jammazwan.replace.ReplacePomDependencies;
 import jammazwan.replace.ReplaceProcessorBeanRefs;
 import jammazwan.replace.ReplaceXProjectGitStatus;
 import jammazwan.replace.ReplaceXProjectLinks;
+import jammazwan.util.HoldContextOpenUntilDone;
 import jammazwan.util.Utils;
 
 public class XyzReRunMain {
@@ -38,7 +39,7 @@ public class XyzReRunMain {
 		DefaultCamelContext context = new DefaultCamelContext();
 		context.addRoutes(unMarshalExampleProjects);
 		context.start();
-		Thread.sleep(5000);
+		HoldContextOpenUntilDone.go(context);
 		context.stop();
 		System.gc();
 		for (Map xmplProject : unMarshalExampleProjects.getExampleProjects()) {

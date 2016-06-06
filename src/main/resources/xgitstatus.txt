@@ -13,3 +13,13 @@ cd ~/work/jammazwan/xac_PartialCopyCsvSplitAggregate
 echo "--------------------"
 pwd
 git status
+
+cd ~/work/jammazwan/xad_FileToConsoleLog
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xae_CsvFileToObjects
+echo "--------------------"
+pwd
+git status

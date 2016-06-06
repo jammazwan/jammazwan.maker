@@ -5,6 +5,7 @@ import java.util.Map;
 import org.apache.camel.CamelContext;
 import org.apache.camel.impl.DefaultCamelContext;
 
+import jammazwan.util.HoldContextOpenUntilDone;
 import jammazwan.util.SleepUntilSeemsIdle;
 
 public class GenerateProject {
@@ -23,8 +24,7 @@ public class GenerateProject {
 		 * work perfectly about 2/3 of the time with only a second
 		 */
 		context.start();
-//		SleepUntilSeemsIdle.work();
-		Thread.sleep(5000);
+		HoldContextOpenUntilDone.go(context);
 		context.stop();
 		System.gc();
 	}
