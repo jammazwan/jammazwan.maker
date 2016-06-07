@@ -23,3 +23,43 @@ cd ~/work/jammazwan/xae_CsvFileToObjects
 echo "--------------------"
 pwd
 git status
+
+cd ~/work/jammazwan/xaf_SplitXML
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xag_SplitJSON
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xah_SplitIterable
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xai_SplitString
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xaj_SplitFile
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xak_SplitObject
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xal_SplitAggregate
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xam_CsvFileToRandomXmlJsonFile
+echo "--------------------"
+pwd
+git status

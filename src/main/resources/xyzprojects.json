@@ -43,5 +43,77 @@
 		"technology": "camel-file, camel-bindy",
 		"specialInstructions": "run XaeTest which confirms that first record has expected field contents.",
 		"include": ""
+	},
+	{
+		"xyzCode": "xaf",
+		"name": "SplitXML",
+		"desc": "Different options for splitting a body with XML content",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "",
+		"specialInstructions": "run XafTest to explore the options. NOTES.md is the actual doc on this project.",
+		"include": ""
+	},
+	{
+		"xyzCode": "xag",
+		"name": "SplitJSON",
+		"desc": "Different options for splitting a body with JSON content",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "",
+		"specialInstructions": "run XagTest to explore the options. NOTES.md is the actual doc on this project.",
+		"include": ""
+	},
+	{
+		"xyzCode": "xah",
+		"name": "SplitIterable",
+		"desc": "Different options for splitting a body which is an Iterable",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "",
+		"specialInstructions": "run XahTest to explore the options. NOTES.md is the actual doc on this project.",
+		"include": ""
+	},
+	{
+		"xyzCode": "xai",
+		"name": "SplitString",
+		"desc": "Different options for splitting a body with a String as content",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "",
+		"specialInstructions": "run XaiTest to explore the options. NOTES.md is the actual doc on this project.",
+		"include": ""
+	},
+	{
+		"xyzCode": "xaj",
+		"name": "SplitFile",
+		"desc": "Different options for splitting a body with a file as content",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "",
+		"specialInstructions": "run XajTest to explore the options. NOTES.md is the actual doc on this project.",
+		"include": ""
+	},
+	{
+		"xyzCode": "xak",
+		"name": "SplitObject",
+		"desc": "Different options for splitting a body with a single object as content",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "",
+		"specialInstructions": "run XakTest to explore the options. NOTES.md is the actual doc on this project.",
+		"include": ""
+	},
+	{
+		"xyzCode": "xal",
+		"name": "SplitAggregate",
+		"desc": "Splitting and aggregating back in the same call",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "",
+		"specialInstructions": "run XalTest to explore the options. NOTES.md is the actual doc on this project.",
+		"include": ""
+	},
+	{
+		"xyzCode": "xam",
+		"name": "CsvFileToRandomXmlJsonFile",
+		"desc": "Show off project only. Generates random XML and JSON files from CSV input",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "",
+		"specialInstructions": "Too complex for useful x_project example. Created to generate files for other x_projects",
+		"include": ""
 	}
 ]
