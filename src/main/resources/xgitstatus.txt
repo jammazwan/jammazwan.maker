@@ -63,3 +63,13 @@ cd ~/work/jammazwan/xam_CsvFileToRandomXmlJsonFile
 echo "--------------------"
 pwd
 git status
+
+cd ~/work/jammazwan/xan_SingleObjectToXmlJaxb
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xao_SingleObjectToXmlJackson
+echo "--------------------"
+pwd
+git status

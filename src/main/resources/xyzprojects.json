@@ -112,8 +112,26 @@
 		"name": "CsvFileToRandomXmlJsonFile",
 		"desc": "Show off project only. Generates random XML and JSON files from CSV input",
 		"version": "0.1.0-SNAPSHOT",
-		"technology": "",
+		"technology": "camel-file camel-bindy camel-jackson camel-jaxb",
 		"specialInstructions": "Too complex for useful x_project example. Created to generate files for other x_projects",
+		"include": "bean"
+	},
+	{
+		"xyzCode": "xan",
+		"name": "SingleObjectToXmlJaxb",
+		"desc": "Uses JAXB to create two xml files from two different objects, attributes, elements",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file camel-jaxb",
+		"specialInstructions": "run XanTest to examine files generated",
+		"include": ""
+	},
+	{
+		"xyzCode": "xao",
+		"name": "SingleObjectToXmlJackson",
+		"desc": "Uses JacksonXML to create xml from a single object",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file camel-jacksonxml",
+		"specialInstructions": "run XaoTest to examine files generated",
 		"include": ""
 	}
 ]
