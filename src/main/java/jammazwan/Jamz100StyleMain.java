@@ -15,12 +15,12 @@ import jammazwan.util.ReadMeGenerate;
 import jammazwan.util.ThreeCharOrdinal;
 import jammazwan.util.Utils;
 
-public class SetupsMain {
+public class Jamz100StyleMain {
 	static StringBuffer sb = new StringBuffer();
 	static int i;
 
 	public static void main(String args[]) throws Exception {
-		new SetupsMain().loop();
+		new Jamz100StyleMain().loop();
 	}
 
 	private void loop() throws Exception {
