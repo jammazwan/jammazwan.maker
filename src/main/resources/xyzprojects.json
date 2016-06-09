@@ -49,7 +49,7 @@
 		"name": "SplitXML",
 		"desc": "Different options for splitting a body with XML content",
 		"version": "0.1.0-SNAPSHOT",
-		"technology": "",
+		"technology": "camel-file camel-jackson camel-jacksonxml",
 		"specialInstructions": "run XafTest to explore the options. NOTES.md is the actual doc on this project.",
 		"include": ""
 	},
@@ -58,7 +58,7 @@
 		"name": "SplitJSON",
 		"desc": "Different options for splitting a body with JSON content",
 		"version": "0.1.0-SNAPSHOT",
-		"technology": "",
+		"technology": "camel-jsonpath camel-file",
 		"specialInstructions": "run XagTest to explore the options. NOTES.md is the actual doc on this project.",
 		"include": ""
 	},
@@ -67,7 +67,7 @@
 		"name": "SplitIterable",
 		"desc": "Different options for splitting a body which is an Iterable",
 		"version": "0.1.0-SNAPSHOT",
-		"technology": "",
+		"technology": "camel-core",
 		"specialInstructions": "run XahTest to explore the options. NOTES.md is the actual doc on this project.",
 		"include": ""
 	},
