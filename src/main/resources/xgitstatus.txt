@@ -44,16 +44,6 @@ echo "--------------------"
 pwd
 git status
 
-cd ~/work/jammazwan/xaj_SplitFile
-echo "--------------------"
-pwd
-git status
-
-cd ~/work/jammazwan/xak_SplitObject
-echo "--------------------"
-pwd
-git status
-
 cd ~/work/jammazwan/xal_SplitAggregate
 echo "--------------------"
 pwd

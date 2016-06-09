@@ -65,37 +65,19 @@
 	{
 		"xyzCode": "xah",
 		"name": "SplitIterable",
-		"desc": "Different options for splitting a body which is an Iterable",
+		"desc": "The mother of all splits: an Iterable body, or a bean, or an expression",
 		"version": "0.1.0-SNAPSHOT",
 		"technology": "camel-core",
 		"specialInstructions": "run XahTest to explore the options. NOTES.md is the actual doc on this project.",
-		"include": ""
+		"include": "bean"
 	},
 	{
 		"xyzCode": "xai",
 		"name": "SplitString",
 		"desc": "Different options for splitting a body with a String as content",
 		"version": "0.1.0-SNAPSHOT",
-		"technology": "",
+		"technology": "camel-file",
 		"specialInstructions": "run XaiTest to explore the options. NOTES.md is the actual doc on this project.",
-		"include": ""
-	},
-	{
-		"xyzCode": "xaj",
-		"name": "SplitFile",
-		"desc": "Different options for splitting a body with a file as content",
-		"version": "0.1.0-SNAPSHOT",
-		"technology": "",
-		"specialInstructions": "run XajTest to explore the options. NOTES.md is the actual doc on this project.",
-		"include": ""
-	},
-	{
-		"xyzCode": "xak",
-		"name": "SplitObject",
-		"desc": "Different options for splitting a body with a single object as content",
-		"version": "0.1.0-SNAPSHOT",
-		"technology": "",
-		"specialInstructions": "run XakTest to explore the options. NOTES.md is the actual doc on this project.",
 		"include": ""
 	},
 	{
