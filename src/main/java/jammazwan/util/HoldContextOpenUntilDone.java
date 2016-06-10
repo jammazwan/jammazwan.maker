@@ -16,12 +16,13 @@ public class HoldContextOpenUntilDone {
 				Thread.sleep(1000);
 				if (context.getInflightRepository().size() == 0) {
 					System.err.println("\nHoldContextOpenUntilDone is complete\n");
-					Thread.sleep(1000);//just a little extra to make sure
+					Thread.sleep(2000);// Tried less, files still not completed
 					if (context.getInflightRepository().size() == 0) {
 						break;
 					}
 				}
 			}
+			System.gc();
 		} catch (Exception e) {
 			throw new RuntimeException(e);
 		}

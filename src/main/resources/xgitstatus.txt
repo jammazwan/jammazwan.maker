@@ -63,3 +63,33 @@ cd ~/work/jammazwan/xao_SingleObjectToXmlJackson
 echo "--------------------"
 pwd
 git status
+
+cd ~/work/jammazwan/xap_HttpToFile
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xaq_JettyHttpToFile
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xar_FileToFtp
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xas_TimerOptions
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xat_QuartzTimerOptions
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xau_VelocityTemplateToFile
+echo "--------------------"
+pwd
+git status

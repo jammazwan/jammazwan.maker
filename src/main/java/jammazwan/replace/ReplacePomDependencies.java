@@ -11,7 +11,7 @@ public class ReplacePomDependencies implements Replacement {
 		StringBuffer sb = new StringBuffer();
 		String technology = replacements.get("technology");
 		String xyzCode = replacements.get("xyzCode");
-		System.err.println("LOOKING FOR " + xyzCode);
+		System.err.println("\nWORKING ON " + xyzCode);
 		if (!xyzCode.startsWith("x")) {
 			sb.append("<!-- add other dependencies here -->");
 		} else {

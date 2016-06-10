@@ -115,5 +115,59 @@
 		"technology": "camel-file camel-jacksonxml",
 		"specialInstructions": "run XaoTest to examine files generated",
 		"include": ""
+	},
+	{
+		"xyzCode": "xap",
+		"name": "HttpToFile",
+		"desc": "Uses camel-http to copy wired.com to file",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file camel-http",
+		"specialInstructions": "run XapTest to examine file generated",
+		"include": ""
+	},
+	{
+		"xyzCode": "xaq",
+		"name": "JettyHttpToFile",
+		"desc": "Uses camel-jetty to copy wired.com to file",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file camel-jetty",
+		"specialInstructions": "run XaqTest to examine file generated",
+		"include": ""
+	},
+	{
+		"xyzCode": "xar",
+		"name": "FileToFtp",
+		"desc": "Uses camel-ftp to write a file from source",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file camel-ftp",
+		"specialInstructions": "run XarTest, see NOTES.md for prior server setup",
+		"include": ""
+	},
+	{
+		"xyzCode": "xas",
+		"name": "TimerOptions",
+		"desc": "Uses timer a few different ways",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-core",
+		"specialInstructions": "run XasTest",
+		"include": ""
+	},
+	{
+		"xyzCode": "xat",
+		"name": "ToBeDetermined",
+		"desc": "You don't know, do you?",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-core",
+		"specialInstructions": "run XatTest",
+		"include": ""
+	},
+	{
+		"xyzCode": "xau",
+		"name": "VelocityTemplateToFile",
+		"desc": "Uses the Velocity template engine to write a file",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file camel-velocity",
+		"specialInstructions": "run XauTest",
+		"include": "processor"
 	}
 ]
