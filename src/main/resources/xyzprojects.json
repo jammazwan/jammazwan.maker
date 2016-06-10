@@ -153,18 +153,9 @@
 		"include": ""
 	},
 	{
-		"xyzCode": "xat",
-		"name": "ToBeDetermined",
-		"desc": "You don't know, do you?",
-		"version": "0.1.0-SNAPSHOT",
-		"technology": "camel-core",
-		"specialInstructions": "run XatTest",
-		"include": ""
-	},
-	{
 		"xyzCode": "xau",
 		"name": "VelocityTemplateToFile",
-		"desc": "Uses the Velocity template engine to write a file",
+		"desc": "Uses the Velocity template engine to write files",
 		"version": "0.1.0-SNAPSHOT",
 		"technology": "camel-file camel-velocity",
 		"specialInstructions": "run XauTest",

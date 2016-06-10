@@ -84,11 +84,6 @@ echo "--------------------"
 pwd
 git status
 
-cd ~/work/jammazwan/xat_QuartzTimerOptions
-echo "--------------------"
-pwd
-git status
-
 cd ~/work/jammazwan/xau_VelocityTemplateToFile
 echo "--------------------"
 pwd
