@@ -6,7 +6,7 @@
 		"version": "0.1.0-SNAPSHOT",
 		"technology": "camel-jackson camel-file",
 		"specialInstructions": "run XaaTest and look for a city.json to be produced fresh in the root of this project",
-		"include": "processor"
+		"include": "processor shared"
 	},
 	{
 		"xyzCode": "xab",
@@ -15,7 +15,7 @@
 		"version": "0.1.0-SNAPSHOT",
 		"technology": "camel-bindy camel-jpa camel-file",
 		"specialInstructions": "This is a needlessly complex show-off project. Pursue simpler x_projects to learn the basics of jpa, bindy, etc",
-		"include": "none"
+		"include": "shared"
 	},
 	{
 		"xyzCode": "xac",
@@ -24,7 +24,7 @@
 		"version": "0.1.0-SNAPSHOT",
 		"technology": "camel-csv camel-file",
 		"specialInstructions": "run XacTest and re-create surname.txt from surname.csv, which remains intact in jammazwan.shared.",
-		"include": "none"
+		"include": "shared"
 	},
 	{
 		"xyzCode": "xad",
@@ -33,7 +33,7 @@
 		"version": "0.1.0-SNAPSHOT",
 		"technology": "camel-file",
 		"specialInstructions": "run XadTest and observe console.",
-		"include": ""
+		"include": "shared"
 	},
 	{
 		"xyzCode": "xae",
@@ -42,7 +42,7 @@
 		"version": "0.1.0-SNAPSHOT",
 		"technology": "camel-file, camel-bindy",
 		"specialInstructions": "run XaeTest which confirms that first record has expected field contents.",
-		"include": ""
+		"include": "shared"
 	},
 	{
 		"xyzCode": "xaf",
@@ -51,7 +51,7 @@
 		"version": "0.1.0-SNAPSHOT",
 		"technology": "camel-file camel-jackson camel-jacksonxml",
 		"specialInstructions": "run XafTest to explore the options. NOTES.md is the actual doc on this project.",
-		"include": ""
+		"include": "shared"
 	},
 	{
 		"xyzCode": "xag",
@@ -60,7 +60,7 @@
 		"version": "0.1.0-SNAPSHOT",
 		"technology": "camel-jsonpath camel-file",
 		"specialInstructions": "run XagTest to explore the options. NOTES.md is the actual doc on this project.",
-		"include": ""
+		"include": "shared"
 	},
 	{
 		"xyzCode": "xah",
@@ -69,7 +69,7 @@
 		"version": "0.1.0-SNAPSHOT",
 		"technology": "camel-core",
 		"specialInstructions": "run XahTest to explore the options. NOTES.md is the actual doc on this project.",
-		"include": "bean"
+		"include": "bean, shared"
 	},
 	{
 		"xyzCode": "xai",
@@ -78,7 +78,7 @@
 		"version": "0.1.0-SNAPSHOT",
 		"technology": "camel-file",
 		"specialInstructions": "run XaiTest to explore the options. NOTES.md is the actual doc on this project.",
-		"include": ""
+		"include": "shared"
 	},
 	{
 		"xyzCode": "xal",
@@ -87,7 +87,7 @@
 		"version": "0.1.0-SNAPSHOT",
 		"technology": "",
 		"specialInstructions": "run XalTest to explore the options. NOTES.md is the actual doc on this project.",
-		"include": ""
+		"include": "none"
 	},
 	{
 		"xyzCode": "xam",
@@ -96,7 +96,7 @@
 		"version": "0.1.0-SNAPSHOT",
 		"technology": "camel-file camel-bindy camel-jackson camel-jaxb",
 		"specialInstructions": "Too complex for useful x_project example. Created to generate files for other x_projects",
-		"include": "bean"
+		"include": "bean shared"
 	},
 	{
 		"xyzCode": "xan",
@@ -105,7 +105,7 @@
 		"version": "0.1.0-SNAPSHOT",
 		"technology": "camel-file camel-jaxb",
 		"specialInstructions": "run XanTest to examine files generated",
-		"include": ""
+		"include": "shared"
 	},
 	{
 		"xyzCode": "xao",
@@ -114,7 +114,7 @@
 		"version": "0.1.0-SNAPSHOT",
 		"technology": "camel-file camel-jacksonxml",
 		"specialInstructions": "run XaoTest to examine files generated",
-		"include": ""
+		"include": "shared"
 	},
 	{
 		"xyzCode": "xap",
@@ -123,7 +123,7 @@
 		"version": "0.1.0-SNAPSHOT",
 		"technology": "camel-file camel-http",
 		"specialInstructions": "run XapTest to examine file generated",
-		"include": ""
+		"include": "none"
 	},
 	{
 		"xyzCode": "xaq",
@@ -132,7 +132,7 @@
 		"version": "0.1.0-SNAPSHOT",
 		"technology": "camel-file camel-jetty",
 		"specialInstructions": "run XaqTest to examine file generated",
-		"include": ""
+		"include": "none"
 	},
 	{
 		"xyzCode": "xar",
@@ -141,7 +141,7 @@
 		"version": "0.1.0-SNAPSHOT",
 		"technology": "camel-file camel-ftp",
 		"specialInstructions": "run XarTest, see NOTES.md for prior server setup",
-		"include": ""
+		"include": "none"
 	},
 	{
 		"xyzCode": "xas",
@@ -150,7 +150,7 @@
 		"version": "0.1.0-SNAPSHOT",
 		"technology": "camel-core",
 		"specialInstructions": "run XasTest",
-		"include": ""
+		"include": "none"
 	},
 	{
 		"xyzCode": "xau",
@@ -160,5 +160,257 @@
 		"technology": "camel-file camel-velocity",
 		"specialInstructions": "run XauTest",
 		"include": "processor"
+	},
+	{
+		"xyzCode": "xza",
+		"name": "FileCommandControlOptions",
+		"desc": "Exploration - File options - excepting shared file issues",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "run XavTest, also see NOTES.md",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xzb",
+		"name": "FileSharedAccessOptions",
+		"desc": "Exploration - File options - shared file approaches",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "run XawTest, also see NOTES.md",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xzc",
+		"name": "TransformWithExpressions",
+		"desc": "Exploration - File options - shared file approaches",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "tbd",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xzd",
+		"name": "TransformWithBean",
+		"desc": "tbd",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "tbd",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xzf",
+		"name": "TransformWithExpressions",
+		"desc": "tbd",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "tbd",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xzg",
+		"name": "EIP distribution comparison",
+		"desc": "show RecipientList RoutingSlip DynamicRoute Wiretap Multicast as against each other",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "tbd",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xzh",
+		"name": "AggregatorSimple",
+		"desc": "show both splitter driven and EIP driven aggregation but nothing else",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "tbd",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xzi",
+		"name": "NonEIPMultipleTo",
+		"desc": "tbd",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "tbd",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xzj",
+		"name": "JpaCofCrud",
+		"desc": "tbd",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "tbd",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xzk",
+		"name": "JpaRofCrud",
+		"desc": "tbd",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "tbd",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xzl",
+		"name": "JpaUofCrud",
+		"desc": "tbd",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "tbd",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xzm",
+		"name": "JpaDofCrud",
+		"desc": "tbd",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "tbd",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xzn",
+		"name": "ErrorHandlingDeadLetter",
+		"desc": "tbd",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "tbd",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xzo",
+		"name": "ErrorHandlingExceptionOptions",
+		"desc": "tbd",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "tbd",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xzp",
+		"name": "ErrorHandlingFaults",
+		"desc": "tbd",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "tbd",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xzq",
+		"name": "CxfCodeFirstSimple",
+		"desc": "tbd",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "tbd",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xzr",
+		"name": "CxfWsdlFirstSimple",
+		"desc": "tbd",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "tbd",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xzs",
+		"name": "CxfCodeFirstComplex",
+		"desc": "tbd",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "tbd",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xzt",
+		"name": "CxfWsdlFirstComplex",
+		"desc": "tbd",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "tbd",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xzu",
+		"name": "LargeFileStreaming",
+		"desc": "tbd",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "tbd",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xzv",
+		"name": "ThreadPool",
+		"desc": "tbd",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "tbd",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xzw",
+		"name": "BeanParameters",
+		"desc": "tbd",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "tbd",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xzx",
+		"name": "JmsLocal",
+		"desc": "tbd",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "tbd",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xzy",
+		"name": "JmsRemote",
+		"desc": "tbd",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "tbd",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xzz",
+		"name": "ExpanderDeployer",
+		"desc": "tbd",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "tbd",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xya",
+		"name": "REST",
+		"desc": "tbd",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "tbd",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xyb",
+		"name": "SpringBoot",
+		"desc": "tbd",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "tbd",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xyc",
+		"name": "tbd",
+		"desc": "tbd",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "tbd",
+		"include": "none"
 	}
 ]

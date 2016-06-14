@@ -88,3 +88,143 @@ cd ~/work/jammazwan/xau_VelocityTemplateToFile
 echo "--------------------"
 pwd
 git status
+
+cd ~/work/jammazwan/xza_FileCommandControlOptions
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xzb_FileSharedAccessOptions
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xzc_TransformWithExpressions
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xzd_TransformWithBean
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xzf_TransformWithExpressions
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xzg_EIP distribution comparison
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xzh_AggregatorSimple
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xzi_NonEIPMultipleTo
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xzj_JpaCofCrud
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xzk_JpaRofCrud
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xzl_JpaUofCrud
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xzm_JpaDofCrud
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xzn_ErrorHandlingDeadLetter
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xzo_ErrorHandlingExceptionOptions
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xzp_ErrorHandlingFaults
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xzq_CxfCodeFirstSimple
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xzr_CxfWsdlFirstSimple
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xzs_CxfCodeFirstComplex
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xzt_CxfWsdlFirstComplex
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xzu_LargeFileStreaming
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xzv_ThreadPool
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xzw_BeanParameters
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xzx_JmsLocal
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xzy_JmsRemote
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xzz_ExpanderDeployer
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xya_REST
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xyb_SpringBoot
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xyc_tbd
+echo "--------------------"
+pwd
+git status
