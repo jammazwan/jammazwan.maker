@@ -11,14 +11,13 @@ public class ReplacePomDependencies implements Replacement {
 		StringBuffer sb = new StringBuffer();
 		String technology = replacements.get("technology");
 		String xyzCode = replacements.get("xyzCode");
-		System.err.println("\nWORKING ON " + xyzCode);
 		if (!xyzCode.startsWith("x")) {
 			sb.append("<!-- add other dependencies here -->");
-		} else {
+		} else if (replacements.get("include").contains("shared")) {
 			sb.append(SHARED);
-			if (technology.contains(" json") || technology.startsWith("json ")) {
-				sb.append(JSON);
-			}
+		}
+		if (technology.contains(" json") || technology.startsWith("json ")) {
+			sb.append(JSON);
 		}
 		replacements.put("pomDependencies", sb.toString());
 		return sb.toString();

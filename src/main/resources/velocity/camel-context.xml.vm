@@ -7,6 +7,7 @@
         http://www.springframework.org/schema/context/spring-context.xsd
         http://camel.apache.org/schema/spring http://camel.apache.org/schema/spring/camel-spring.xsd">
 	
+	<!-- allows you to create a bean without referencing it in this file-->
 	<context:component-scan base-package="jammazwan.${headers.pckg}" />
     
     ${headers.processorXmlRef}

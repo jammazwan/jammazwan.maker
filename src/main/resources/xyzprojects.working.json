@@ -160,5 +160,257 @@
 		"technology": "camel-file camel-velocity",
 		"specialInstructions": "run XauTest",
 		"include": "processor"
+	},
+	{
+		"xyzCode": "xza",
+		"name": "FileCommandControlOptions",
+		"desc": "Exploration - File options - excepting shared file issues",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "run XavTest, also see NOTES.md",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xzb",
+		"name": "FileSharedAccessOptions",
+		"desc": "Exploration - File options - shared file approaches",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "run XawTest, also see NOTES.md",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xzc",
+		"name": "TransformWithExpressions",
+		"desc": "Exploration - File options - shared file approaches",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "tbd",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xzd",
+		"name": "TransformWithBean",
+		"desc": "tbd",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "tbd",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xzf",
+		"name": "TransformWithExpressions",
+		"desc": "tbd",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "tbd",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xzg",
+		"name": "EIP distribution comparison",
+		"desc": "show RecipientList RoutingSlip DynamicRoute Wiretap Multicast as against each other",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "tbd",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xzh",
+		"name": "AggregatorSimple",
+		"desc": "show both splitter driven and EIP driven aggregation but nothing else",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "tbd",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xzi",
+		"name": "NonEIPMultipleTo",
+		"desc": "tbd",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "tbd",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xzj",
+		"name": "JpaCofCrud",
+		"desc": "tbd",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "tbd",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xzk",
+		"name": "JpaRofCrud",
+		"desc": "tbd",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "tbd",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xzl",
+		"name": "JpaUofCrud",
+		"desc": "tbd",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "tbd",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xzm",
+		"name": "JpaDofCrud",
+		"desc": "tbd",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "tbd",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xzn",
+		"name": "ErrorHandlingDeadLetter",
+		"desc": "tbd",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "tbd",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xzo",
+		"name": "ErrorHandlingExceptionOptions",
+		"desc": "tbd",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "tbd",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xzp",
+		"name": "ErrorHandlingFaults",
+		"desc": "tbd",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "tbd",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xzq",
+		"name": "CxfCodeFirstSimple",
+		"desc": "tbd",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "tbd",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xzr",
+		"name": "CxfWsdlFirstSimple",
+		"desc": "tbd",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "tbd",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xzs",
+		"name": "CxfCodeFirstComplex",
+		"desc": "tbd",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "tbd",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xzt",
+		"name": "CxfWsdlFirstComplex",
+		"desc": "tbd",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "tbd",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xzu",
+		"name": "LargeFileStreaming",
+		"desc": "tbd",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "tbd",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xzv",
+		"name": "ThreadPool",
+		"desc": "tbd",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "tbd",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xzw",
+		"name": "BeanParameters",
+		"desc": "tbd",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "tbd",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xzx",
+		"name": "JmsLocal",
+		"desc": "tbd",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "tbd",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xzy",
+		"name": "JmsRemote",
+		"desc": "tbd",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "tbd",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xzz",
+		"name": "ExpanderDeployer",
+		"desc": "tbd",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "tbd",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xya",
+		"name": "REST",
+		"desc": "tbd",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "tbd",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xyb",
+		"name": "SpringBoot",
+		"desc": "tbd",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "tbd",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xyc",
+		"name": "tbd",
+		"desc": "tbd",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "tbd",
+		"include": "none"
 	}
 ]

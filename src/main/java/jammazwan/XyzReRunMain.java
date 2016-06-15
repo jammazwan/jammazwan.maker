@@ -4,6 +4,7 @@ import java.util.Map;
 
 import org.apache.camel.impl.DefaultCamelContext;
 
+import jammazwan.replace.ReplaceGitInstructions;
 import jammazwan.replace.ReplacePomDependencies;
 import jammazwan.replace.ReplaceProcessorBeanRefs;
 import jammazwan.replace.ReplaceXProjectGitStatus;
@@ -30,6 +31,7 @@ public class XyzReRunMain {
 		replacements.put("FileNamePrefix", Utils.upLow(replacements.get("xyzCode")));
 		new ReplacePomDependencies().get(replacements);
 		new ReplaceProcessorBeanRefs().get(replacements);
+		new ReplaceGitInstructions().get(replacements);
 		GenerateProject.go(replacements);
 		linksContent.append(new ReplaceXProjectLinks().get(replacements));
 		xgitstatusContent.append(new ReplaceXProjectGitStatus().get(replacements));
