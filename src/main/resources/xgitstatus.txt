@@ -88,3 +88,23 @@ cd ~/work/jammazwan/xau_VelocityTemplateToFile
 echo "--------------------"
 pwd
 git status
+
+cd ~/work/jammazwan/xav_CxfCodeFirstSimple
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xaw_CxfWsdlFirstSimple
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xax_CxfCodeFirstComplex
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xay_CxfWsdlFirstComplex
+echo "--------------------"
+pwd
+git status

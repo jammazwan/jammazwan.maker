@@ -162,6 +162,42 @@
 		"include": "processor"
 	},
 	{
+		"xyzCode": "xav",
+		"name": "CxfCodeFirstSimple",
+		"desc": "Code first CXF (SOAP) example project. Accepts, and returns simple input. 1 of 4",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-cxf cxf-rt-transports-http-jetty",
+		"specialInstructions": "run XavTest, see NOTES.md and https://betterologist.net/2016/06/camel-cxf-x__project-supplement/",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xaw",
+		"name": "CxfWsdlFirstSimple",
+		"desc": "WSDL first CXF (SOAP) example project. Accepts, and returns simple input. 2 of 4",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-cxf cxf-rt-transports-http-jetty wsdl2java",
+		"specialInstructions": "run XawTest, see NOTES.md and https://betterologist.net/2016/06/camel-cxf-x__project-supplement/",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xax",
+		"name": "CxfCodeFirstComplex",
+		"desc": "Code first CXF (SOAP) example project. Accepts, and returns complex objects. 3 of 4",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-cxf cxf-rx-transports-http-jetty",
+		"specialInstructions": "run XavTest, see NOTES.md and https://betterologist.net/2016/06/camel-cxf-x__project-supplement/",
+		"include": "shared processor"
+	},
+	{
+		"xyzCode": "xay",
+		"name": "CxfWsdlFirstComplex",
+		"desc": "Code first CXF (SOAP) example project. Accepts, and returns complex objects.  4 of 4",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-cxf cxf-rt-transports-http-jetty wsdl2java",
+		"specialInstructions": "run XayTest, see NOTES.md and https://betterologist.net/2016/06/camel-cxf-x__project-supplement/",
+		"include": "shared processor"
+	},
+	{
 		"xyzCode": "xza",
 		"name": "FileCommandControlOptions",
 		"desc": "Exploration - File options - excepting shared file issues",
@@ -290,42 +326,6 @@
 	{
 		"xyzCode": "xzp",
 		"name": "ErrorHandlingFaults",
-		"desc": "tbd",
-		"version": "0.1.0-SNAPSHOT",
-		"technology": "camel-file",
-		"specialInstructions": "tbd",
-		"include": "none"
-	},
-	{
-		"xyzCode": "xzq",
-		"name": "CxfCodeFirstSimple",
-		"desc": "tbd",
-		"version": "0.1.0-SNAPSHOT",
-		"technology": "camel-file",
-		"specialInstructions": "tbd",
-		"include": "none"
-	},
-	{
-		"xyzCode": "xzr",
-		"name": "CxfWsdlFirstSimple",
-		"desc": "tbd",
-		"version": "0.1.0-SNAPSHOT",
-		"technology": "camel-file",
-		"specialInstructions": "tbd",
-		"include": "none"
-	},
-	{
-		"xyzCode": "xzs",
-		"name": "CxfCodeFirstComplex",
-		"desc": "tbd",
-		"version": "0.1.0-SNAPSHOT",
-		"technology": "camel-file",
-		"specialInstructions": "tbd",
-		"include": "none"
-	},
-	{
-		"xyzCode": "xzt",
-		"name": "CxfWsdlFirstComplex",
 		"desc": "tbd",
 		"version": "0.1.0-SNAPSHOT",
 		"technology": "camel-file",
