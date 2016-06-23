@@ -198,6 +198,15 @@
 		"include": "shared processor"
 	},
 	{
+		"xyzCode": "xaz",
+		"name": "TransformWithBean",
+		"desc": "Transform a body using a bean",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "Run XazTest and observe new sortedTransforms.txt file in the root of your project",
+		"include": "bean shared"
+	},
+	{
 		"xyzCode": "xza",
 		"name": "FileCommandControlOptions",
 		"desc": "Exploration - File options - excepting shared file issues",
@@ -207,30 +216,30 @@
 		"include": "none"
 	},
 	{
+		"xyzCode": "xba",
+		"name": "TransformWithExpressions",
+		"desc": "Exploration of several transforms executed with Camel Expressions",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "Run XbaTest to see the results of the transforms.",
+		"include": "shared processor"
+	},
+	{
+		"xyzCode": "xbb",
+		"name": "TransformWithXslt",
+		"desc": "Transform a file with XSLT",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "Run XbbTest to see the results of the transforms.",
+		"include": "shared"
+	},
+	{
 		"xyzCode": "xzb",
 		"name": "FileSharedAccessOptions",
 		"desc": "Exploration - File options - shared file approaches",
 		"version": "0.1.0-SNAPSHOT",
 		"technology": "camel-file",
 		"specialInstructions": "run XawTest, also see NOTES.md",
-		"include": "none"
-	},
-	{
-		"xyzCode": "xzc",
-		"name": "TransformWithExpressions",
-		"desc": "Exploration - File options - shared file approaches",
-		"version": "0.1.0-SNAPSHOT",
-		"technology": "camel-file",
-		"specialInstructions": "tbd",
-		"include": "none"
-	},
-	{
-		"xyzCode": "xzd",
-		"name": "TransformWithBean",
-		"desc": "tbd",
-		"version": "0.1.0-SNAPSHOT",
-		"technology": "camel-file",
-		"specialInstructions": "tbd",
 		"include": "none"
 	},
 	{
@@ -406,8 +415,17 @@
 	},
 	{
 		"xyzCode": "xyc",
-		"name": "tbd",
+		"name": "Properties",
 		"desc": "tbd",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "tbd",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xyd",
+		"name": "Async",
+		"desc": "from _camelinaction v1 template.asyncRequestBody(\"seda:",
 		"version": "0.1.0-SNAPSHOT",
 		"technology": "camel-file",
 		"specialInstructions": "tbd",

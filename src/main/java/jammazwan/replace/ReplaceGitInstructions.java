@@ -35,19 +35,19 @@ public class ReplaceGitInstructions implements Replacement {
 			sb.append("```\n\n");
 		}
 		sb.append("#### Install This Project:\n\n");
-		sb.append("Git clone the "+ name + " project into your workspace:\n\n");
+		sb.append("Git clone the " + name + " project into your workspace:\n\n");
 		sb.append("_from your bash shell:_\n\n");
 		sb.append("```bash\n");
 		sb.append("cd yourworkspacedirectory\n");
-		sb.append("git clone https://github.com/jammazwan/"+ name + ".git\n");
-		sb.append("cd "+ name + "\n");
+		sb.append("git clone https://github.com/jammazwan/" + name + ".git\n");
+		sb.append("cd " + name + "\n");
 		sb.append("mvn install -DskipTests\n");
 		sb.append("\n");
 		sb.append("```\n\n");
-		sb.append("You man now import "+ name + " into your IDE.\n");
+		sb.append("You man now import " + name + " into your IDE.\n");
 		if (hasShared) {
 			sb.append(
-					"Importing [jammazwan.shared](https://github.com/jammazwan/jammazwan.shared) into your IDE is also sometimes helpful, but not required.\n\n");
+					" Importing [jammazwan.shared](https://github.com/jammazwan/jammazwan.shared) into your IDE is also sometimes helpful, but not required unless it is reading files from src/main/resources - in that case it has to be cloned as a sibling to this project in the workspace.\n\n");
 		}
 		replacements.put("gitinstructions", sb.toString());
 		return sb.toString();
