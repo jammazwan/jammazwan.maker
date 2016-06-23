@@ -1,4 +1,124 @@
 
+cd ~/work/jammazwan/xaa_SingleObjectToJsonFile
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xab_SeedDbFromManyCsvFiles
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xac_PartialCopyCsvSplitAggregate
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xad_FileToConsoleLog
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xae_CsvFileToObjects
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xaf_SplitXML
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xag_SplitJSON
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xah_SplitIterable
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xai_SplitString
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xal_SplitAggregate
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xam_CsvFileToRandomXmlJsonFile
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xan_SingleObjectToXmlJaxb
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xao_SingleObjectToXmlJackson
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xap_HttpToFile
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xaq_JettyHttpToFile
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xar_FileToFtp
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xas_TimerOptions
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xau_VelocityTemplateToFile
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xav_CxfCodeFirstSimple
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xaw_CxfWsdlFirstSimple
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xax_CxfCodeFirstComplex
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xay_CxfWsdlFirstComplex
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xaz_TransformWithBean
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xba_TransformWithExpressions
+echo "--------------------"
+pwd
+git status
+
 cd ~/work/jammazwan/xbb_TransformWithXslt
 echo "--------------------"
 pwd

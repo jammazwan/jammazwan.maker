@@ -207,6 +207,15 @@
 		"include": "bean shared"
 	},
 	{
+		"xyzCode": "xba",
+		"name": "TransformWithExpressions",
+		"desc": "Exploration of several transforms executed with Camel Expressions",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "Run XbaTest to see the results of the transforms. NOTES.md explains most of what is going on.",
+		"include": "shared"
+	},
+	{
 		"xyzCode": "xza",
 		"name": "FileCommandControlOptions",
 		"desc": "Exploration - File options - excepting shared file issues",
@@ -216,21 +225,12 @@
 		"include": "none"
 	},
 	{
-		"xyzCode": "xba",
-		"name": "TransformWithExpressions",
-		"desc": "Exploration of several transforms executed with Camel Expressions",
-		"version": "0.1.0-SNAPSHOT",
-		"technology": "camel-file",
-		"specialInstructions": "Run XbaTest to see the results of the transforms.",
-		"include": "shared processor"
-	},
-	{
 		"xyzCode": "xbb",
 		"name": "TransformWithXslt",
-		"desc": "Transform a file with XSLT",
+		"desc": "Transform an XML file with XSLT",
 		"version": "0.1.0-SNAPSHOT",
 		"technology": "camel-file",
-		"specialInstructions": "Run XbbTest to see the results of the transforms.",
+		"specialInstructions": "Run XbbTest to see the results of the transforms. See NOTES.md for more information.",
 		"include": "shared"
 	},
 	{

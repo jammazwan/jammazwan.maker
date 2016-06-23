@@ -1,12 +1,227 @@
 [
-
+	{
+		"xyzCode": "xaa",
+		"name": "SingleObjectToJsonFile",
+		"desc": "Create an object, and save it as json in a file",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-jackson camel-file",
+		"specialInstructions": "run XaaTest and look for a city.json to be produced fresh in the root of this project",
+		"include": "processor shared"
+	},
+	{
+		"xyzCode": "xab",
+		"name": "SeedDbFromManyCsvFiles",
+		"desc": "Show off project only: Uses JPA and camel-bindy to seed a database from many different csv files",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-bindy camel-jpa camel-file",
+		"specialInstructions": "This is a needlessly complex show-off project. Pursue simpler x_projects to learn the basics of jpa, bindy, etc",
+		"include": "shared"
+	},
+	{
+		"xyzCode": "xac",
+		"name": "PartialCopyCsvSplitAggregate",
+		"desc": "Create single field .csv file from multiple field .csv file, using simple splitter and aggregation",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-csv camel-file",
+		"specialInstructions": "run XacTest and re-create surname.txt from surname.csv, which remains intact in jammazwan.shared.",
+		"include": "shared"
+	},
+	{
+		"xyzCode": "xad",
+		"name": "FileToConsoleLog",
+		"desc": "Displays contents of a file in the console. Simplest possible file project",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "run XadTest and observe console.",
+		"include": "shared"
+	},
+	{
+		"xyzCode": "xae",
+		"name": "CsvFileToObjects",
+		"desc": "Opens .csv file, creates java objects from contents",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file, camel-bindy",
+		"specialInstructions": "run XaeTest which confirms that first record has expected field contents.",
+		"include": "shared"
+	},
+	{
+		"xyzCode": "xaf",
+		"name": "SplitXML",
+		"desc": "Different options for splitting a body with XML content",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file camel-jackson camel-jacksonxml",
+		"specialInstructions": "run XafTest to explore the options. NOTES.md is the actual doc on this project.",
+		"include": "shared"
+	},
+	{
+		"xyzCode": "xag",
+		"name": "SplitJSON",
+		"desc": "Different options for splitting a body with JSON content",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-jsonpath camel-file",
+		"specialInstructions": "run XagTest to explore the options. NOTES.md is the actual doc on this project.",
+		"include": "shared"
+	},
+	{
+		"xyzCode": "xah",
+		"name": "SplitIterable",
+		"desc": "The mother of all splits: an Iterable body, or a bean, or an expression",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-core",
+		"specialInstructions": "run XahTest to explore the options. NOTES.md is the actual doc on this project.",
+		"include": "bean, shared"
+	},
+	{
+		"xyzCode": "xai",
+		"name": "SplitString",
+		"desc": "Different options for splitting a body with a String as content",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "run XaiTest to explore the options. NOTES.md is the actual doc on this project.",
+		"include": "shared"
+	},
+	{
+		"xyzCode": "xal",
+		"name": "SplitAggregate",
+		"desc": "Splitting and aggregating back in the same call",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "",
+		"specialInstructions": "run XalTest to explore the options. NOTES.md is the actual doc on this project.",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xam",
+		"name": "CsvFileToRandomXmlJsonFile",
+		"desc": "Show off project only. Generates random XML and JSON files from CSV input",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file camel-bindy camel-jackson camel-jaxb",
+		"specialInstructions": "Too complex for useful x_project example. Created to generate files for other x_projects",
+		"include": "bean shared"
+	},
+	{
+		"xyzCode": "xan",
+		"name": "SingleObjectToXmlJaxb",
+		"desc": "Uses JAXB to create two xml files from two different objects, attributes, elements",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file camel-jaxb",
+		"specialInstructions": "run XanTest to examine files generated",
+		"include": "shared"
+	},
+	{
+		"xyzCode": "xao",
+		"name": "SingleObjectToXmlJackson",
+		"desc": "Uses JacksonXML to create xml from a single object",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file camel-jacksonxml",
+		"specialInstructions": "run XaoTest to examine files generated",
+		"include": "shared"
+	},
+	{
+		"xyzCode": "xap",
+		"name": "HttpToFile",
+		"desc": "Uses camel-http to copy wired.com to file",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file camel-http",
+		"specialInstructions": "run XapTest to examine file generated",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xaq",
+		"name": "JettyHttpToFile",
+		"desc": "Uses camel-jetty to copy wired.com to file",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file camel-jetty",
+		"specialInstructions": "run XaqTest to examine file generated",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xar",
+		"name": "FileToFtp",
+		"desc": "Uses camel-ftp to write a file from source",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file camel-ftp",
+		"specialInstructions": "run XarTest, see NOTES.md for prior server setup",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xas",
+		"name": "TimerOptions",
+		"desc": "Uses timer a few different ways",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-core",
+		"specialInstructions": "run XasTest",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xau",
+		"name": "VelocityTemplateToFile",
+		"desc": "Uses the Velocity template engine to write files",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file camel-velocity",
+		"specialInstructions": "run XauTest",
+		"include": "processor"
+	},
+	{
+		"xyzCode": "xav",
+		"name": "CxfCodeFirstSimple",
+		"desc": "Code first CXF (SOAP) example project. Accepts, and returns simple input. 1 of 4",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-cxf cxf-rt-transports-http-jetty",
+		"specialInstructions": "run XavTest, see NOTES.md and https://betterologist.net/2016/06/camel-cxf-x__project-supplement/",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xaw",
+		"name": "CxfWsdlFirstSimple",
+		"desc": "WSDL first CXF (SOAP) example project. Accepts, and returns simple input. 2 of 4",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-cxf cxf-rt-transports-http-jetty wsdl2java",
+		"specialInstructions": "run XawTest, see NOTES.md and https://betterologist.net/2016/06/camel-cxf-x__project-supplement/",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xax",
+		"name": "CxfCodeFirstComplex",
+		"desc": "Code first CXF (SOAP) example project. Accepts, and returns complex objects. 3 of 4",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-cxf cxf-rx-transports-http-jetty",
+		"specialInstructions": "run XavTest, see NOTES.md and https://betterologist.net/2016/06/camel-cxf-x__project-supplement/",
+		"include": "shared processor"
+	},
+	{
+		"xyzCode": "xay",
+		"name": "CxfWsdlFirstComplex",
+		"desc": "Code first CXF (SOAP) example project. Accepts, and returns complex objects.  4 of 4",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-cxf cxf-rt-transports-http-jetty wsdl2java",
+		"specialInstructions": "run XayTest, see NOTES.md and https://betterologist.net/2016/06/camel-cxf-x__project-supplement/",
+		"include": "shared processor"
+	},
+	{
+		"xyzCode": "xaz",
+		"name": "TransformWithBean",
+		"desc": "Transform a body using a bean",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "Run XazTest and observe new sortedTransforms.txt file in the root of your project",
+		"include": "bean shared"
+	},
+	{
+		"xyzCode": "xba",
+		"name": "TransformWithExpressions",
+		"desc": "Exploration of several transforms executed with Camel Expressions",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "Run XbaTest to see the results of the transforms. NOTES.md explains most of what is going on.",
+		"include": "shared"
+	},
 	{
 		"xyzCode": "xbb",
 		"name": "TransformWithXslt",
-		"desc": "Transform a file with XSLT",
+		"desc": "Transform an XML file with XSLT",
 		"version": "0.1.0-SNAPSHOT",
 		"technology": "camel-file",
-		"specialInstructions": "Run XbbTest to see the results of the transforms.",
+		"specialInstructions": "Run XbbTest to see the results of the transforms. See NOTES.md for more information.",
 		"include": "shared"
 	}
 ]
