@@ -216,15 +216,6 @@
 		"include": "shared"
 	},
 	{
-		"xyzCode": "xza",
-		"name": "FileCommandControlOptions",
-		"desc": "Exploration - File options - excepting shared file issues",
-		"version": "0.1.0-SNAPSHOT",
-		"technology": "camel-file",
-		"specialInstructions": "run XavTest, also see NOTES.md",
-		"include": "none"
-	},
-	{
 		"xyzCode": "xbb",
 		"name": "TransformWithXslt",
 		"desc": "Transform an XML file with XSLT",
@@ -232,6 +223,42 @@
 		"technology": "camel-file",
 		"specialInstructions": "Run XbbTest to see the results of the transforms. See NOTES.md for more information.",
 		"include": "shared"
+	},
+	{
+		"xyzCode": "xbc",
+		"name": "NonEIPMultipleTo",
+		"desc": "What happens if we use multiple to(...) statements instead of proper EIP patterns?",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "Run XbcTest, should create 3 files, and satisfy 2 mocks. See NOTES.md",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xbd",
+		"name": "EIPdistributionComparison",
+		"desc": "show RecipientList RoutingSlip DynamicRoute Wiretap Multicast as compared to each other",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "Run each of the four tests individually, compare results in the output files. See NOTES.md for more information",
+		"include": "shared"
+	},
+	{
+		"xyzCode": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+		"name": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+		"desc": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+		"version": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+		"technology": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+		"specialInstructions": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+		"include": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+	},
+	{
+		"xyzCode": "xza",
+		"name": "FileCommandControlOptions",
+		"desc": "Exploration - File options - excepting shared file issues",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "run XavTest, also see NOTES.md",
+		"include": "none"
 	},
 	{
 		"xyzCode": "xzb",
@@ -243,36 +270,9 @@
 		"include": "none"
 	},
 	{
-		"xyzCode": "xzf",
-		"name": "TransformWithExpressions",
-		"desc": "tbd",
-		"version": "0.1.0-SNAPSHOT",
-		"technology": "camel-file",
-		"specialInstructions": "tbd",
-		"include": "none"
-	},
-	{
-		"xyzCode": "xzg",
-		"name": "EIP distribution comparison",
-		"desc": "show RecipientList RoutingSlip DynamicRoute Wiretap Multicast as against each other",
-		"version": "0.1.0-SNAPSHOT",
-		"technology": "camel-file",
-		"specialInstructions": "tbd",
-		"include": "none"
-	},
-	{
 		"xyzCode": "xzh",
 		"name": "AggregatorSimple",
 		"desc": "show both splitter driven and EIP driven aggregation but nothing else",
-		"version": "0.1.0-SNAPSHOT",
-		"technology": "camel-file",
-		"specialInstructions": "tbd",
-		"include": "none"
-	},
-	{
-		"xyzCode": "xzi",
-		"name": "NonEIPMultipleTo",
-		"desc": "tbd",
 		"version": "0.1.0-SNAPSHOT",
 		"technology": "camel-file",
 		"specialInstructions": "tbd",

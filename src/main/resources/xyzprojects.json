@@ -223,5 +223,23 @@
 		"technology": "camel-file",
 		"specialInstructions": "Run XbbTest to see the results of the transforms. See NOTES.md for more information.",
 		"include": "shared"
+	},
+	{
+		"xyzCode": "xbc",
+		"name": "NonEIPMultipleTo",
+		"desc": "What happens if we use multiple to(...) statements instead of proper EIP patterns?",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "Run XbcTest, should create 3 files, and satisfy 2 mocks. See NOTES.md",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xbd",
+		"name": "EIPdistributionComparison",
+		"desc": "show RecipientList RoutingSlip DynamicRoute Wiretap Multicast as compared to each other",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "Run each of the four tests individually, compare results in the output files. See NOTES.md for more information",
+		"include": "shared"
 	}
 ]

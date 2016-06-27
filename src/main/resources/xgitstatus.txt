@@ -123,3 +123,13 @@ cd ~/work/jammazwan/xbb_TransformWithXslt
 echo "--------------------"
 pwd
 git status
+
+cd ~/work/jammazwan/xbc_NonEIPMultipleTo
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xbd_EIPdistributionComparison
+echo "--------------------"
+pwd
+git status
