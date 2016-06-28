@@ -133,3 +133,13 @@ cd ~/work/jammazwan/xbd_EIPdistributionComparison
 echo "--------------------"
 pwd
 git status
+
+cd ~/work/jammazwan/xbe_FileConsumptionOptions
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xbf_FileProductionOptions
+echo "--------------------"
+pwd
+git status

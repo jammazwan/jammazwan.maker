@@ -241,5 +241,23 @@
 		"technology": "camel-file",
 		"specialInstructions": "Run each of the four tests individually, compare results in the output files. See NOTES.md for more information",
 		"include": "shared"
+	},
+	{
+		"xyzCode": "xbe",
+		"name": "FileConsumptionOptions",
+		"desc": "Exploration - File consumption options - basic",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "run each specific test seperately, also see NOTES.md",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xbf",
+		"name": "FileProductionOptions",
+		"desc": "Exploration - File production and move options - basic",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "run each specific test seperately, also see NOTES.md",
+		"include": "none"
 	}
 ]
