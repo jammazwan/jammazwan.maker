@@ -259,5 +259,32 @@
 		"technology": "camel-file",
 		"specialInstructions": "run each specific test seperately, also see NOTES.md",
 		"include": "none"
+	},
+	{
+		"xyzCode": "xbg",
+		"name": "JpaCreateOfCRUD",
+		"desc": "JPA - Create of CRUD",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file, camel-jpa, derbyDB",
+		"specialInstructions": "Run XbgTest, also see NOTES.md",
+		"include": "shared"
+	},
+	{
+		"xyzCode": "xbk",
+		"name": "JmsLocal",
+		"desc": "JMS messaging to a local VM only",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file camel-jms",
+		"specialInstructions": "run XbkTest, also see NOTES.md",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xbl",
+		"name": "JmsRemote",
+		"desc": "JMS messaging to a remote running JMS server",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file camel-jms",
+		"specialInstructions": "run XblTest, also see NOTES.md",
+		"include": "none"
 	}
 ]

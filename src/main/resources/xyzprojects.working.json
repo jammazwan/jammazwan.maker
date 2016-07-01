@@ -262,7 +262,7 @@
 	},
 	{
 		"xyzCode": "xbg",
-		"name": "JpaCreateofCrud",
+		"name": "JpaCreateOfCRUD",
 		"desc": "JPA - Create of CRUD",
 		"version": "0.1.0-SNAPSHOT",
 		"technology": "camel-file, camel-jpa, derbyDB",
@@ -271,16 +271,16 @@
 	},
 	{
 		"xyzCode": "xbh",
-		"name": "JpaRetrieveofCrud",
-		"desc": "JPA - Retrieve of CRUD",
+		"name": "JpaRetrieveOfCRUD",
+		"desc": "JPA - Retrieve of CRUD. A few of the more typical query approaches you might start with",
 		"version": "0.1.0-SNAPSHOT",
 		"technology": "camel-file, camel-jpa, derbyDB",
-		"specialInstructions": "Run XbhTest, also see NOTES.md",
+		"specialInstructions": "Run various tests, per NOTES.md",
 		"include": "shared"
 	},
 	{
 		"xyzCode": "xbi",
-		"name": "JpaUpdateofCrud",
+		"name": "JpaUpdateOfCRUD",
 		"desc": "JPA - Update of CRUD",
 		"version": "0.1.0-SNAPSHOT",
 		"technology": "camel-file, camel-jpa, derbyDB",
@@ -289,12 +289,39 @@
 	},
 	{
 		"xyzCode": "xbj",
-		"name": "JpaDeleteofCrud",
+		"name": "JpaDeleteOfCRUD",
 		"desc": "JPA - Delete of CRUD",
 		"version": "0.1.0-SNAPSHOT",
 		"technology": "camel-file, camel-jpa, derbyDB",
 		"specialInstructions": "Run XbjTest, also see NOTES.md",
 		"include": "shared"
+	},
+	{
+		"xyzCode": "xbk",
+		"name": "JmsLocal",
+		"desc": "tbd",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "tbd",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xbl",
+		"name": "JmsRemote",
+		"desc": "tbd",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "tbd",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xbm",
+		"name": "JdbcReinterpretted",
+		"desc": "Reinterpretation of JDBC example, without the OSGi",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file camel-jdbc",
+		"specialInstructions": "tbd",
+		"include": "none"
 	},
 	{
 		"xyzCode": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
@@ -304,33 +331,6 @@
 		"technology": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
 		"specialInstructions": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
 		"include": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
-	},
-	{
-		"xyzCode": "xzb",
-		"name": "FileSharedAccessOptions",
-		"desc": "Exploration - File options - shared file approaches",
-		"version": "0.1.0-SNAPSHOT",
-		"technology": "camel-file",
-		"specialInstructions": "run XawTest, also see NOTES.md",
-		"include": "none"
-	},
-	{
-		"xyzCode": "xzh",
-		"name": "AggregatorSimple",
-		"desc": "show both splitter driven and EIP driven aggregation but nothing else",
-		"version": "0.1.0-SNAPSHOT",
-		"technology": "camel-file",
-		"specialInstructions": "tbd",
-		"include": "none"
-	},
-	{
-		"xyzCode": "xzm",
-		"name": "JpaDofCrud",
-		"desc": "tbd",
-		"version": "0.1.0-SNAPSHOT",
-		"technology": "camel-file",
-		"specialInstructions": "tbd",
-		"include": "none"
 	},
 	{
 		"xyzCode": "xzn",
@@ -359,7 +359,25 @@
 		"specialInstructions": "tbd",
 		"include": "none"
 	},
+	
 	{
+		"xyzCode": "xzb",
+		"name": "FileSharedAccessOptions",
+		"desc": "Exploration - File options - shared file approaches",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "run XawTest, also see NOTES.md",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xzm",
+		"name": "JpaDofCrud",
+		"desc": "tbd",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file",
+		"specialInstructions": "tbd",
+		"include": "none"
+	},{
 		"xyzCode": "xzu",
 		"name": "LargeFileStreaming",
 		"desc": "tbd",
@@ -404,7 +422,7 @@
 		"specialInstructions": "tbd",
 		"include": "none"
 	},
-	{
+		{
 		"xyzCode": "xzz",
 		"name": "ExpanderDeployer",
 		"desc": "tbd",
