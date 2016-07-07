@@ -158,3 +158,13 @@ cd ~/work/jammazwan/xbl_JmsRemote
 echo "--------------------"
 pwd
 git status
+
+cd ~/work/jammazwan/xbm_BeanParameters
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xbn_Properties
+echo "--------------------"
+pwd
+git status

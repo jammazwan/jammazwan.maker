@@ -316,12 +316,21 @@
 	},
 	{
 		"xyzCode": "xbm",
-		"name": "JdbcReinterpretted",
-		"desc": "Reinterpretation of JDBC example, without the OSGi",
+		"name": "BeanParameters",
+		"desc": "Examples of calling a bean with different combinations of camel inputs",
 		"version": "0.1.0-SNAPSHOT",
-		"technology": "camel-file camel-jdbc",
-		"specialInstructions": "tbd",
+		"technology": "camel-core",
+		"specialInstructions": "Run XbmTest. Also see NOTES.md",
 		"include": "none"
+	},
+	{
+		"xyzCode": "xbn",
+		"name": "Properties",
+		"desc": "Consuming a basic properties file in a camel project.",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-core",
+		"specialInstructions": "Run XbnTest. Also see NOTES.md",
+		"include": "bean"
 	},
 	{
 		"xyzCode": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
@@ -359,7 +368,6 @@
 		"specialInstructions": "tbd",
 		"include": "none"
 	},
-	
 	{
 		"xyzCode": "xzb",
 		"name": "FileSharedAccessOptions",
@@ -377,7 +385,8 @@
 		"technology": "camel-file",
 		"specialInstructions": "tbd",
 		"include": "none"
-	},{
+	},
+	{
 		"xyzCode": "xzu",
 		"name": "LargeFileStreaming",
 		"desc": "tbd",
@@ -396,33 +405,6 @@
 		"include": "none"
 	},
 	{
-		"xyzCode": "xzw",
-		"name": "BeanParameters",
-		"desc": "tbd",
-		"version": "0.1.0-SNAPSHOT",
-		"technology": "camel-file",
-		"specialInstructions": "tbd",
-		"include": "none"
-	},
-	{
-		"xyzCode": "xzx",
-		"name": "JmsLocal",
-		"desc": "tbd",
-		"version": "0.1.0-SNAPSHOT",
-		"technology": "camel-file",
-		"specialInstructions": "tbd",
-		"include": "none"
-	},
-	{
-		"xyzCode": "xzy",
-		"name": "JmsRemote",
-		"desc": "tbd",
-		"version": "0.1.0-SNAPSHOT",
-		"technology": "camel-file",
-		"specialInstructions": "tbd",
-		"include": "none"
-	},
-		{
 		"xyzCode": "xzz",
 		"name": "ExpanderDeployer",
 		"desc": "tbd",
@@ -450,15 +432,6 @@
 		"include": "none"
 	},
 	{
-		"xyzCode": "xyc",
-		"name": "Properties",
-		"desc": "tbd",
-		"version": "0.1.0-SNAPSHOT",
-		"technology": "camel-file",
-		"specialInstructions": "tbd",
-		"include": "none"
-	},
-	{
 		"xyzCode": "xyd",
 		"name": "Async",
 		"desc": "from _camelinaction v1 template.asyncRequestBody(\"seda:",
@@ -466,5 +439,53 @@
 		"technology": "camel-file",
 		"specialInstructions": "tbd",
 		"include": "none"
+	},
+	{
+		"xyzCode": "xye",
+		"name": "StartupOrder",
+		"desc": "something about startuporder from ch 13",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-core",
+		"specialInstructions": "Run XbnTest. Also see NOTES.md",
+		"include": "bean"
+	},
+	{
+		"xyzCode": "xyf",
+		"name": "ManualStart",
+		"desc": "something about manual start from ch 13",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-core",
+		"specialInstructions": "Run XbnTest. Also see NOTES.md",
+		"include": "bean"
+	},
+	{
+		"xyzCode": "xyg",
+		"name": "pollEnrich",
+		"desc": "tbd",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-core",
+		"specialInstructions": "Run XbnTest. Also see NOTES.md",
+		"include": "bean"
+	},
+	{
+		"xyzCode": "xyh",
+		"name": "Poll",
+		"desc": "tbd",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-core",
+		"specialInstructions": "Run XbnTest. Also see NOTES.md",
+		"include": "bean"
+	},
+	{
+		"xyzCode": "xyi",
+		"name": "Jascrypt",
+		"desc": "see http://camel.apache.org/jasypt",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-core",
+		"specialInstructions": "Run XbnTest. Also see NOTES.md",
+		"include": "bean"
 	}
+	zip dataformat
+	cbr choice etc
+	pollEnrich
 ]

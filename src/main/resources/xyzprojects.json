@@ -286,5 +286,23 @@
 		"technology": "camel-file camel-jms",
 		"specialInstructions": "run XblTest, also see NOTES.md",
 		"include": "none"
+	},
+	{
+		"xyzCode": "xbm",
+		"name": "BeanParameters",
+		"desc": "Examples of calling a bean with different combinations of camel inputs",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-core",
+		"specialInstructions": "Run XbmTest. Also see NOTES.md",
+		"include": "bean"
+	},
+	{
+		"xyzCode": "xbn",
+		"name": "Properties",
+		"desc": "Consuming a basic properties file in a camel project.",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-core",
+		"specialInstructions": "Run XbnTest. Also see NOTES.md",
+		"include": "bean"
 	}
 ]

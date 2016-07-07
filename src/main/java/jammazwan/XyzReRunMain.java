@@ -32,7 +32,9 @@ public class XyzReRunMain {
 		new ReplacePomDependencies().get(replacements);
 		new ReplaceProcessorBeanRefs().get(replacements);
 		new ReplaceGitInstructions().get(replacements);
-		if (replacements.get("xyzCode").equals("xbk")||replacements.get("xyzCode").equals("xbl")) {
+		if (replacements.get("xyzCode").equals("xbn")
+//				||replacements.get("xyzCode").equals("xbn")
+				) {
 			GenerateProject.go(replacements);
 		}
 		linksContent.append(new ReplaceXProjectLinks().get(replacements));
