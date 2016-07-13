@@ -333,6 +333,24 @@
 		"include": "bean"
 	},
 	{
+		"xyzCode": "xbo",
+		"name": "BareBonesCamelMicroServices",
+		"desc": "Bare bones server microservice Camel",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-core",
+		"specialInstructions": "documented at https://wp.me/p7HAYH-5R",
+		"include": "none"
+	},
+	{
+		"xyzCode": "xbp",
+		"name": "SpringBootBareBonesCamelMicroServices",
+		"desc": "Bare bones server microservice Camel on a Spring Boot base",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-core springboot",
+		"specialInstructions": "documented at https://wp.me/p7HAYH-5R",
+		"include": "none"
+	},
+	{
 		"xyzCode": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
 		"name": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
 		"desc": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",

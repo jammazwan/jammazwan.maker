@@ -168,3 +168,13 @@ cd ~/work/jammazwan/xbn_Properties
 echo "--------------------"
 pwd
 git status
+
+cd ~/work/jammazwan/xbo_BareBonesCamelMicroService
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xbp_SpringBootBareBonesCamelMicroService
+echo "--------------------"
+pwd
+git status
