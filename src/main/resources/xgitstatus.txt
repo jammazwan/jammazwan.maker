@@ -178,3 +178,13 @@ cd ~/work/jammazwan/xbp_SpringBootBareBonesCamelMicroService
 echo "--------------------"
 pwd
 git status
+
+cd ~/work/jammazwan/xbq_DroolsCamelIntegration
+echo "--------------------"
+pwd
+git status
+
+cd ~/work/jammazwan/xbr_JammazwanContents
+echo "--------------------"
+pwd
+git status

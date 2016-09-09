@@ -351,6 +351,15 @@
 		"include": "none"
 	},
 	{
+		"xyzCode": "xbq",
+		"name": "DroolsCamelIntegration",
+		"desc": "Bare bones Drools run inside a Camel route",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file, drools",
+		"specialInstructions": "tbd",
+		"include": "none"
+	},
+	{
 		"xyzCode": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
 		"name": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
 		"desc": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
@@ -503,7 +512,7 @@
 		"specialInstructions": "Run XbnTest. Also see NOTES.md",
 		"include": "bean"
 	}
-	zip dataformat
-	cbr choice etc
-	pollEnrich
 ]
+"comment": "zip dataformat",
+"comment": "cbr choice etc",
+"comment": "pollEnrich"

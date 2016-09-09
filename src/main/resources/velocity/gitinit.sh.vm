@@ -3,6 +3,7 @@ git add --all
 git commit -m "initial commit"
 git remote add origin https://github.com/jammazwan/${headers.xyzCode}_${headers.projectname}.git
 git push -u origin master
+chmod a+x commit.sh
 
 # xyzCode : ${headers.xyzCode}
 # name: ${headers.name}

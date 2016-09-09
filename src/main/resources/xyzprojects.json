@@ -322,5 +322,14 @@
 		"technology": "camel-core springboot",
 		"specialInstructions": "documented at https://wp.me/p7HAYH-5R, with further docs at NOTES.md",
 		"include": "none"
+	},
+	{
+		"xyzCode": "xbq",
+		"name": "DroolsCamelIntegration",
+		"desc": "Bare bones Drools run inside a Camel route",
+		"version": "0.1.0-SNAPSHOT",
+		"technology": "camel-file, drools",
+		"specialInstructions": "Run XbqTest as a unit test, either from inside your IDE or from maven inside CLI, per above",
+		"include": "none"
 	}
 ]

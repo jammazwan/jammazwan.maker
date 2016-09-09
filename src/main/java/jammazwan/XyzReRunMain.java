@@ -32,8 +32,8 @@ public class XyzReRunMain {
 		new ReplacePomDependencies().get(replacements);
 		new ReplaceProcessorBeanRefs().get(replacements);
 		new ReplaceGitInstructions().get(replacements);
-		if (replacements.get("xyzCode").equals("xbo")
-				||replacements.get("xyzCode").equals("xbp")
+		if (replacements.get("xyzCode").equals("xbq")
+				||replacements.get("xyzCode").equals("xbr")
 				) {
 			GenerateProject.go(replacements);
 		}
